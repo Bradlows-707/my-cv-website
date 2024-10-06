@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="Style.css">
+    <title>Nduvho Bradley Netshitenzhe's Portfolio</title>
+    <style>
+        .hero {
+            position: relative;
+        }
+
+        .hero-text {
+            position: absolute; /* Position the text absolutely within the hero section */
+            top: calc(30% + 30mm); /* Move the text down 30mm */
+            left: calc(50% - 20mm); /* Move the text left 20mm */
+            transform: translate(-50%, -50%); /* Center the text using transform */
+            text-align: center; /* Centers the text */
+        }
+        
+        .hero-text h1 {
+            color: black; /* Set the welcome message color to black */
+            margin: 0; /* Remove default margin */
+        }
+    </style>
+</head>
+<body background="bg5.jpg">
+   
+    <main>
+        <section class="hero">
+            <div class="image">
+                <img src="welcome10-removebg-preview.png" alt="Welcome" data-aos="fade-left" data-aos-duration="2000" />
+                <div class="hero-text" data-aos="fade-right" data-aos-duration="2000">
+                    <h1>Welcome to Nduvho Bradley Netshitenzhe's Portfolio</h1>
+                </div>
+            </div>
+        </section>
+        <section class="navigation">
+            <div class="container">
+                <center>
+                    <h3>Explore More</h3>
+                    <div class="buttons">
+                        <a href="">Home/Index</a>
+                        <a href="About.html">About</a>
+                        <a href="Skills.html">Skills</a>
+                        <a href="Contact Us.html">Contact Us</a>
+                    </div>
+                </center>
+            </div>
+        </section>
+        <section class="download">
+            <div class="container">
+                <center>
+                    <h3>Download My CV</h3>
+                    <a href="Project_CV.pdf" class="download-button" download>Download CV</a>
+                </center>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
